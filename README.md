@@ -91,6 +91,7 @@ EOF
       -- or just leave it empty :)
     })
   end,
+}
 ```
 </details>
 
