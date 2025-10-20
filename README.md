@@ -78,6 +78,23 @@ EOF
 
 </details>
 
+<details>
+    <summary><a href="https://github.com/folke/lazy.nvim">Lazy.nvim</a></summary>
+
+```lua
+{
+  "Pocco81/auto-save.nvim",
+  event = { "InsertLeave", "TextChanged" }, -- Load when you start editing
+  config = function()
+    require("auto-save").setup({
+      -- your config goes here
+      -- or just leave it empty :)
+    })
+  end,
+```
+</details>
+
+
 &nbsp;
 
 ### ⚙️ Configuration
